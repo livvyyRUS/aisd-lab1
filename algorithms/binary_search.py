@@ -1,4 +1,4 @@
-from bisect import bisect_left
+from .bisect_left import bisect_left
 
 
 def binary_search(a: list[int], b: list[int]):
