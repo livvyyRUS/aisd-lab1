@@ -1,0 +1,13 @@
+[project]
+name = "labs-aisd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.1",
+    "pytest>=9.2.0",
+    "pytest-xdist>=3.8.0",
+]
