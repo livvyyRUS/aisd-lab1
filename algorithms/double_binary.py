@@ -2,6 +2,9 @@ from bisect import bisect_left
 
 
 def double_binary(a: list[int], b: list[int]):
+    if len(a) > len(b):
+        a, b = b, a
+
     m = len(a)
     n = len(b)
 
