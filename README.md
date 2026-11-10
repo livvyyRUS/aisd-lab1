@@ -131,6 +131,13 @@ uv run pytest testing.py -n auto   # тесты + замеры -> test_results.c
 uv run python plot_results.py      # графики -> plots_by_n/
 ```
 
+Или установить зависимости через pip и запустить через стандартный интерпретатор python
+```bash
+pip install pytest pytest-xdist matplotlib numpy pandas    # установить зависимости
+pytest testing.py -n auto                                  # тесты + замеры -> test_results.csv
+python plot_results.py                                     # графики -> plots_by_n/
+```
+
 Зависимости (`pyproject.toml`): `pytest`, `pytest-xdist`, `matplotlib`, `numpy`, `pandas`.
 
 ## 7. Результаты
